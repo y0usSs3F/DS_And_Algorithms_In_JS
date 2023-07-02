@@ -1,0 +1,34 @@
+BFS vs DFS:
+------------
+
+
+
+BFS  ==>  Uses a lot of memory to keep track of the parent nodes and the children nodes of that level, But it also helps determine the shortest path, And it's better if we know that a node we're looking for is close to us because it's going to look at the closer nodes first, Examples: 1) used in recommendation engines, 2)peer to peer networks, 3)even Google Maps, 4)Facebook friend requests and Instagram recommendations.
+
+
+
+
+DFS  ==>  The idea of death for research is that it's really good at saying, does the path exist? It doesn't tell us the shortest path, but whether it even exists, And it uses less memory than BFS, The one downside with it is that if you have a really, really deep graph, then it can get very slow because the deeper the graph, the more recursive calls, the more space complexity you add because we have to keep track of those function calls on a stack.
+
+
+
+
+//If you know a solution is not far from the root of the tree:
+BFS
+
+//If the tree is very deep and solutions are rare, 
+BFS (DFS will take long time. )
+
+//If the tree is very wide:
+DFS (BFS will need too much memory)
+
+//If solutions are frequent but located deep in the tree
+DFS
+
+//determining whether a path exists between two nodes
+DFS
+
+//Finding the shortest path
+BFS
+
+
