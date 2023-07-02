@@ -1,0 +1,50 @@
+Insertion Sort  ==> with few items (if your input is small or items almost sorted it's really really fast) O(n^2)
+
+Bubble Sort     ==> tbh it's educational mechanizm only, you never gonna use Bubble Sort in real life scenario cuz it's not efficient  O(n^2)
+
+Selection Sort  ==> tbh it's educational mechanizm only, you never gonna use Bubble Sort in real life scenario cuz it's not efficient  O(n^2)
+
+Merge Sort      ==> useful if you are care about the time complexity O(nlog(n)) than space complexity O(n)
+
+Quick Sort      ==> one of the most popular algorithm and useful if you are care about the space complexity O(log(n)) than time complexity O(n^2)
+
+
+
+You should use Quick Sort when your average case performance matters more than the worst case performance, Because QuickSort allows us to sort in O(nlog(n)), but in worst case in O(n^2).
+
+Mercer, on the other hand Is great because it's always O(nlog(n)), it's also stable, which means that it always gives the same results in order If two items are the same, Although the space complexity is a little bit higher than quicksort, it's definitely a useful sort.
+
+
+
+
+
+
+Exercise:
+-----------
+
+
+
+#1 - Sort 10 schools around your house by distance:
+insertion sort
+
+#2 - eBay sorts listings by the current Bid amount:
+radix or counting sort
+
+#3 - Sport scores on ESPN
+Quick sort
+
+#4 - Massive database (can't fit all into memory) needs to sort through past year's user data
+Merge Sort
+
+#5 - Almost sorted Udemy review data needs to update and add 2 new reviews
+Insertion Sort
+
+#6 - Temperature Records for the past 50 years in Canada
+radix or counting Sort
+Quick sort if decimal places
+
+#7 - Large user name database needs to be sorted. Data is very random.
+Quick sort
+
+#8 - You want to teach sorting
+Bubble sort, Selection Sort
